@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is a shell script for declaring a variable
+# How to  declare a variable?
 
 a=9
 name="Shweta"
@@ -14,5 +14,21 @@ echo "My name is $name and my age is $age"
 name="Riyan"
 
 echo "My name is $name"
+
+
+
+# How to declare constant variables?
+
+readonly House="WhiteHouse"
+
+echo "My house name is $House"
+
+
+
+
+
+
+
+
 
 
