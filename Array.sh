@@ -36,11 +36,13 @@ echo "Values of New Array are ${Myarray[*]}"
 
 declare -A Myarray
 
-Myarray=( [name]=sai [age]=20 )
+Myarray=( ["age"]=20 )
 
-echo "My age is ${Myarray[age]}"
+echo "My age is ${Myarray["age"]}"
 
-echo "The city I live in is ${Myarray[city]}"
+
+
+
 
  
 
